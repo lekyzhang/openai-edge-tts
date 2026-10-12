@@ -30,7 +30,7 @@ This project provides a local, OpenAI-compatible text-to-speech (TTS) API using 
 The simplest way to get started without having to configure anything is to run the command below
 
 ```bash
-docker run -d -p 5050:5050 lekyzhang1/openai-edge-tts:latest
+docker run -d --name openai-edge-tts -p 5050:5050 lekyzhang1/openai-edge-tts:latest
 ```
 
 This will run the service at port 5050 with all the default configs
